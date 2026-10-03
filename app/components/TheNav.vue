@@ -31,11 +31,29 @@
             <div class="w-9 h-9"></div>
           </template>
         </ClientOnly>
+        
+        <!-- Mobile Menu Toggle -->
+        <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="md:hidden p-2 rounded-lg text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors focus:outline-none">
+          <svg v-if="!isMobileMenuOpen" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+          <svg v-else xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+
         <NuxtLink to="#contact" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-lg text-xs font-semibold text-white bg-slate-900 dark:bg-slate-800 dark:text-white hover:bg-blue-600 dark:hover:bg-blue-500 transition-all duration-200 shadow-sm">
           <span>Let's Talk</span>
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3.5 h-3.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
         </NuxtLink>
       </div>
+    </div>
+
+    <!-- Mobile Menu Dropdown -->
+    <div v-if="isMobileMenuOpen" class="md:hidden absolute top-full left-0 right-0 bg-white/95 dark:bg-slate-950/95 backdrop-blur-lg border-b border-slate-200 dark:border-slate-800 shadow-lg py-4 px-4 flex flex-col gap-2">
+      <NuxtLink v-for="link in links" :key="link.path" :to="link.path" @click="isMobileMenuOpen = false" class="px-4 py-3 text-sm font-medium text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white rounded-lg hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors">
+        {{ link.name }}
+      </NuxtLink>
+      <NuxtLink to="#contact" @click="isMobileMenuOpen = false" class="sm:hidden mt-2 flex items-center justify-center gap-2 px-4 py-3 rounded-lg text-sm font-semibold text-white bg-slate-900 dark:bg-slate-800 hover:bg-blue-600 transition-all shadow-sm">
+        <span>Let's Talk</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+      </NuxtLink>
     </div>
   </header>
 </template>
@@ -50,6 +68,7 @@ const toggleColorMode = () => {
 }
 
 const scrolled = ref(false)
+const isMobileMenuOpen = ref(false)
 
 const links = [
   { name: 'Home', path: '#home' },
