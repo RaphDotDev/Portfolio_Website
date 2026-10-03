@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-01-01',
   devtools: { enabled: false },
   modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+  css: ['~/assets/css/main.css'],
   colorMode: {
     classSuffix: '',
   },

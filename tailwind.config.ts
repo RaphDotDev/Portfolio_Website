@@ -2,6 +2,13 @@ import type { Config } from 'tailwindcss'
 
 export default <Partial<Config>>{
   darkMode: 'class',
+  content: [
+    './app/**/*.{vue,js,ts,jsx,tsx}',
+    './app/components/**/*.{vue,js,ts}',
+    './app/layouts/**/*.vue',
+    './app/pages/**/*.vue',
+    './app/app.vue',
+  ],
   theme: {
     extend: {
       fontFamily: {
