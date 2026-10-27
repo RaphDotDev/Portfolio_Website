@@ -1,9 +1,20 @@
 <template>
   <footer class="border-t border-slate-200 dark:border-slate-800 py-12 bg-slate-50 dark:bg-[#0b1120] relative z-10 transition-colors duration-300">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
-      <div class="flex flex-col items-center md:items-start">
-        <span class="text-sm font-bold text-slate-900 dark:text-white tracking-tight">Raphael E. Dacara</span>
-        <span class="text-[11px] text-slate-500 dark:text-slate-400 font-mono mt-1">Flutter &amp; Full-Stack Developer</span>
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded-lg bg-blue-600 dark:bg-slate-800 flex items-center justify-center text-white p-1.5 shadow-sm shadow-blue-500/20">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-full h-full" fill="none" stroke="currentColor" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M 56 216 V 40"/>
+            <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+            <path d="M 96 116 L 138 216"/>
+            <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+            <circle cx="166" cy="74" r="6" fill="currentColor" stroke="none"/>
+          </svg>
+        </div>
+        <div class="flex flex-col items-start">
+          <span class="text-sm font-bold text-slate-900 dark:text-white tracking-tight">Raphael E. Dacara</span>
+          <span class="text-[11px] text-slate-500 dark:text-slate-400 font-mono mt-0.5">Flutter &amp; Full-Stack Developer</span>
+        </div>
       </div>
       
       <div class="flex items-center space-x-6">

@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" width="1600" height="1200" role="img" aria-labelledby="p1-title">
+  <title id="p1-title">Raphael Dacara - Brand Specification Poster</title>
+  <defs>
+    <linearGradient id="p1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="blue-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1600" height="1200" fill="url(#p1-bg)"/>
+  
+  <!-- Subtle Architectural Grid -->
+  <g stroke="#1E293B" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="80" x2="1520" y2="80"/>
+    <line x1="80" y1="1120" x2="1520" y2="1120"/>
+    <line x1="80" y1="80" x2="80" y2="1120"/>
+    <line x1="1520" y1="80" x2="1520" y2="1120"/>
+    <line x1="900" y1="80" x2="900" y2="1120"/>
+    <line x1="80" y1="200" x2="1520" y2="200"/>
+    <line x1="80" y1="940" x2="1520" y2="940"/>
+  </g>
+
+  <!-- Header -->
+  <text x="120" y="145" font-family="'SF Mono', 'Fira Code', monospace" font-size="14" font-weight="600" letter-spacing="0.28em" fill="#38BDF8">SYSTEM SPECIFICATION // BRAND IDENTIFIER</text>
+  <text x="120" y="180" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.02em" fill="#F8FAFC">RAPHAEL DACARA — CONCEPT C: THE DEVICE LOOP</text>
+  
+  <text x="940" y="145" font-family="'SF Mono', monospace" font-size="13" letter-spacing="0.2em" fill="#64748B">ROLE: MOBILE &amp; FLUTTER DEVELOPER</text>
+  <text x="940" y="178" font-family="'SF Mono', monospace" font-size="13" letter-spacing="0.2em" fill="#64748B">REV: 1.0.0 · DESIGN SYSTEM RELEASE</text>
+
+  <!-- LEFT COLUMN: Large Hero Mark with Construction Overlay -->
+  <g transform="translate(180, 280) scale(2.6)">
+    <!-- Symbol Glow Shadow -->
+    <g fill="none" stroke="#2563EB" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" opacity="0.2" filter="blur(10px)">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="5" fill="#2563EB" stroke="none"/>
+    </g>
+    <!-- Crisp Foreground Hero Symbol -->
+    <g fill="none" stroke="url(#blue-glow)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="6" fill="#38BDF8" stroke="none"/>
+    </g>
+  </g>
+
+  <!-- Geometry Annotations -->
+  <g font-family="'SF Mono', monospace" font-size="11" fill="#94A3B8">
+    <text x="120" y="860">01. LEFT BEZEL &amp; SPINE // 22PX MONOLINE STROKE</text>
+    <text x="120" y="885">02. UNIFIED R-BOWL // 40-UNIT APEX RADIUS</text>
+    <text x="120" y="910">03. 45° KINETIC LEG // VELOCITY &amp; FORWARD MOTION</text>
+    <text x="500" y="860">04. EXPANSIVE D-VIEWPORT // SMARTPHONE PROFILE</text>
+    <text x="500" y="885">05. CAMERA FOCUS NODE // 12PX HARDWARE ANCHOR</text>
+    <text x="500" y="910">06. 1:1 SQUARE HARMONY // PERFECT SYMMETRICAL MARGINS</text>
+  </g>
+
+  <!-- RIGHT COLUMN: Color Palettes & System Guidelines -->
+  <!-- Swatch 1: Brand Blue -->
+  <rect x="940" y="240" width="160" height="100" rx="12" fill="#2563EB"/>
+  <text x="1120" y="270" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">FLUTTER BLUE</text>
+  <text x="1120" y="295" font-family="'SF Mono', monospace" font-size="13" fill="#38BDF8">HEX: #2563EB</text>
+  <text x="1120" y="315" font-family="'SF Mono', monospace" font-size="12" fill="#94A3B8">RGB: 37, 99, 235 · PRIMARY BRAND</text>
+
+  <!-- Swatch 2: Deep Slate -->
+  <rect x="940" y="360" width="160" height="100" rx="12" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <text x="1120" y="390" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">DEEP TECH SLATE</text>
+  <text x="1120" y="415" font-family="'SF Mono', monospace" font-size="13" fill="#38BDF8">HEX: #0F172A</text>
+  <text x="1120" y="435" font-family="'SF Mono', monospace" font-size="12" fill="#94A3B8">RGB: 15, 23, 42 · DARK MODE CORE</text>
+
+  <!-- Swatch 3: Sky Cyan -->
+  <rect x="940" y="480" width="160" height="100" rx="12" fill="#38BDF8"/>
+  <text x="1120" y="510" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">SKY CYAN</text>
+  <text x="1120" y="535" font-family="'SF Mono', monospace" font-size="13" fill="#38BDF8">HEX: #38BDF8</text>
+  <text x="1120" y="555" font-family="'SF Mono', monospace" font-size="12" fill="#94A3B8">RGB: 56, 189, 248 · ACCENT / GLOW</text>
+
+  <!-- Swatch 4: Pure Light -->
+  <rect x="940" y="600" width="160" height="100" rx="12" fill="#F8FAFC"/>
+  <text x="1120" y="630" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="#F8FAFC">CANVAS WHITE</text>
+  <text x="1120" y="655" font-family="'SF Mono', monospace" font-size="13" fill="#38BDF8">HEX: #F8FAFC</text>
+  <text x="1120" y="675" font-family="'SF Mono', monospace" font-size="12" fill="#94A3B8">RGB: 248, 250, 252 · REVERSED ARTWORK</text>
+
+  <!-- Scale Verification Matrix -->
+  <text x="940" y="745" font-family="'SF Mono', monospace" font-size="13" letter-spacing="0.25em" fill="#38BDF8">OPTICAL SCALE VERIFICATION</text>
+  
+  <g transform="translate(940, 770)">
+    <!-- 64px -->
+    <g transform="scale(0.25)">
+      <g fill="none" stroke="#F8FAFC" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 56 216 V 40"/><path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/><path d="M 96 116 L 138 216"/><path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/><circle cx="166" cy="74" r="6" fill="#F8FAFC" stroke="none"/>
+      </g>
+    </g>
+    <text x="25" y="85" font-family="'SF Mono', monospace" font-size="11" fill="#64748B">64PX</text>
+  </g>
+
+  <g transform="translate(1080, 770)">
+    <!-- 32px -->
+    <g transform="scale(0.125)">
+      <g fill="none" stroke="#F8FAFC" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 56 216 V 40"/><path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/><path d="M 96 116 L 138 216"/><path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/><circle cx="166" cy="74" r="8" fill="#F8FAFC" stroke="none"/>
+      </g>
+    </g>
+    <text x="12" y="85" font-family="'SF Mono', monospace" font-size="11" fill="#64748B">32PX</text>
+  </g>
+
+  <g transform="translate(1190, 770)">
+    <!-- 16px -->
+    <g transform="scale(0.0625)">
+      <g fill="none" stroke="#38BDF8" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M 56 216 V 40"/><path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/><path d="M 96 116 L 138 216"/><path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/><circle cx="166" cy="74" r="10" fill="#38BDF8" stroke="none"/>
+      </g>
+    </g>
+    <text x="5" y="85" font-family="'SF Mono', monospace" font-size="11" fill="#64748B">16PX (FAVICON)</text>
+  </g>
+
+  <!-- Horizontal Lockup in Footer Strip -->
+  <g transform="translate(120, 970) scale(0.65)">
+    <g fill="none" stroke="#F8FAFC" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/><path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/><path d="M 96 116 L 138 216"/><path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/><circle cx="166" cy="74" r="6" fill="#F8FAFC" stroke="none"/>
+    </g>
+    <text x="240" y="125" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="800" letter-spacing="-0.02em" fill="#F8FAFC">RAPHAEL DACARA</text>
+    <text x="244" y="175" font-family="'SF Mono', monospace" font-size="20" font-weight="600" letter-spacing="0.25em" fill="#38BDF8">MOBILE DEVELOPER</text>
+  </g>
+  <text x="1480" y="1040" text-anchor="end" font-family="'SF Mono', monospace" font-size="12" fill="#475569">RAPHAEL DACARA PORTFOLIO BRANDING · 2026</text>
+</svg>

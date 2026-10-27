@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" width="1200" height="1600" role="img" aria-labelledby="p2-title">
+  <title id="p2-title">Raphael Dacara - Monochrome Form Study Poster</title>
+  
+  <!-- Top Half: Pure White Background -->
+  <rect x="0" y="0" width="1200" height="800" fill="#FFFFFF"/>
+  <!-- Bottom Half: Pitch Black Background -->
+  <rect x="0" y="800" width="1200" height="800" fill="#000000"/>
+
+  <!-- Center Split Line -->
+  <line x1="60" y1="800" x2="1140" y2="800" stroke="#333333" stroke-width="1"/>
+
+  <!-- TOP HALF: Black on White -->
+  <text x="80" y="120" font-family="'SF Mono', monospace" font-size="14" font-weight="600" letter-spacing="0.3em" fill="#000000">RAPHAEL DACARA // FORM STUDY</text>
+  <text x="1120" y="120" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#666666">LIGHT FIELD (POSITIVE)</text>
+
+  <g transform="translate(372, 210) scale(1.8)">
+    <g fill="none" stroke="#000000" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="6" fill="#000000" stroke="none"/>
+    </g>
+  </g>
+  <text x="600" y="730" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" letter-spacing="0.1em" fill="#000000">RAPHAEL DACARA</text>
+  <text x="600" y="760" text-anchor="middle" font-family="'SF Mono', monospace" font-size="13" font-weight="500" letter-spacing="0.3em" fill="#666666">MOBILE DEVELOPER · STROKE MONOGRAM</text>
+
+  <!-- BOTTOM HALF: White on Black -->
+  <text x="80" y="870" font-family="'SF Mono', monospace" font-size="14" font-weight="600" letter-spacing="0.3em" fill="#FFFFFF">NEGATIVE SPACE &amp; IRRADIATION STUDY</text>
+  <text x="1120" y="870" text-anchor="end" font-family="'SF Mono', monospace" font-size="14" fill="#888888">DARK FIELD (REVERSED)</text>
+
+  <g transform="translate(372, 960) scale(1.8)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="21" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="6" fill="#FFFFFF" stroke="none"/>
+    </g>
+  </g>
+  <text x="600" y="1480" text-anchor="middle" font-family="system-ui, sans-serif" font-size="28" font-weight="800" letter-spacing="0.1em" fill="#FFFFFF">RAPHAEL DACARA</text>
+  <text x="600" y="1510" text-anchor="middle" font-family="'SF Mono', monospace" font-size="13" font-weight="500" letter-spacing="0.3em" fill="#888888">THINNED OPTICAL REVERSED MASTER</text>
+</svg>

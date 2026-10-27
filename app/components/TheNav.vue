@@ -3,8 +3,14 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
       <!-- Brand Logo -->
       <NuxtLink to="/" class="flex items-center gap-3 group focus:outline-none">
-        <div class="w-9 h-9 rounded-lg bg-slate-900 flex items-center justify-center text-white transition-all group-hover:bg-blue-600">
-          <span class="font-mono font-bold text-xs tracking-tight">RD</span>
+        <div class="w-9 h-9 rounded-lg bg-blue-600 hover:bg-blue-700 dark:bg-slate-800 dark:hover:bg-blue-600 flex items-center justify-center text-white transition-all p-1.5 shadow-sm shadow-blue-500/20">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-full h-full" fill="none" stroke="currentColor" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M 56 216 V 40"/>
+            <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+            <path d="M 96 116 L 138 216"/>
+            <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+            <circle cx="166" cy="74" r="6" fill="currentColor" stroke="none"/>
+          </svg>
         </div>
         <div class="flex flex-col">
           <span class="font-bold text-sm tracking-tight text-slate-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">Raphael Dacara</span>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-labelledby="fav-title">
+  <title id="fav-title">Raphael Dacara Tab Icon</title>
+  <!-- Brand Blue Background Tile with 22% squircle radius (7px) -->
+  <rect width="32" height="32" rx="7" fill="#2563EB"/>
+  <!-- Pure White Concept C Symbol with optimized 32px stroke for high visibility -->
+  <g transform="translate(4, 4) scale(0.09375)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="9" fill="#FFFFFF" stroke="none"/>
+    </g>
+  </g>
+</svg>
