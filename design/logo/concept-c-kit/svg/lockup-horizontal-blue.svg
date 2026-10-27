@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 256" width="880" height="256" role="img" aria-labelledby="h-title">
+  <title id="h-title">Raphael Dacara - Horizontal Logo</title>
+  <g transform="translate(40, 38) scale(0.703)">
+    <g fill="none" stroke="#2563EB" stroke-width="22" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="5" fill="#2563EB" stroke="none"/>
+    </g>
+  </g>
+  <text x="250" y="124" font-family="system-ui, -apple-system, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="800" letter-spacing="-0.02em" fill="#2563EB">RAPHAEL DACARA</text>
+  <text x="254" y="172" font-family="'SF Mono', 'Fira Code', 'Courier New', monospace" font-size="20" font-weight="600" letter-spacing="0.25em" fill="#0F172A">MOBILE DEVELOPER</text>
+</svg>

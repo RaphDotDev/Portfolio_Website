@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="icon-title">
+  <title id="icon-title">Raphael Dacara App Icon</title>
+  <defs>
+    <linearGradient id="icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.88"/>
+    </linearGradient>
+  </defs>
+  <!-- Squircle Base with 22.5% radius (58px) -->
+  <rect width="256" height="256" rx="58" fill="url(#icon-grad)"/>
+  <!-- Centered Symbol at scale 0.65 (166px) -->
+  <g transform="translate(45, 45) scale(0.648)">
+    <g fill="none" stroke="#0F172A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="6" fill="#0F172A" stroke="none"/>
+    </g>
+  </g>
+</svg>

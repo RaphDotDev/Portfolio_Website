@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="fav-title">
+  <title id="fav-title">Raphael Dacara Tab Icon</title>
+  <rect width="256" height="256" rx="56" fill="#2563EB"/>
+  <g transform="translate(32, 32) scale(0.75)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 56 216 V 40"/>
+      <path d="M 56 40 H 104 C 124 40 136 52 136 78 C 136 104 124 116 104 116 H 56"/>
+      <path d="M 96 116 L 138 216"/>
+      <path d="M 128 40 H 152 C 184 40 200 58 200 94 V 162 C 200 198 184 216 152 216 H 138"/>
+      <circle cx="166" cy="74" r="7" fill="#FFFFFF" stroke="none"/>
+    </g>
+  </g>
+</svg>
